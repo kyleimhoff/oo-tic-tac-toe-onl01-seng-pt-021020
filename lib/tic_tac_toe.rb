@@ -84,7 +84,7 @@ class TicTacToe
     end 
     
     def winner
-      
+      @board[self.won?]
     end
   end
       
