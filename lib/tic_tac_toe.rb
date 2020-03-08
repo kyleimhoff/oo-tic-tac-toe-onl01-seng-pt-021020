@@ -74,7 +74,7 @@ class TicTacToe
          else
            win 
          end
-       end
+       
     end
     win 
     end
