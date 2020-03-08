@@ -1,3 +1,8 @@
 #!/usr/bin/env ruby
 require 'pry'
 require_relative '../lib/tic_tac_toe.rb'
+
+ttt = TicTacToe.new
+ttt.display_board
+ttt.move(2, 'x')
+ttt.display_board
