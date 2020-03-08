@@ -71,6 +71,7 @@ class TicTacToe
       WIN_COMBINATIONS.each do |arr|
          if @board[arr[0]] == @board[arr[1]] && @board[arr[1]] == @board[arr[2]] && @board[arr[0]] == "X" || @board[arr[0]] == "O"
            win = arr
+         end
       end 
     end
     win 
