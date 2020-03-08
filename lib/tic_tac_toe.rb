@@ -79,7 +79,7 @@ class TicTacToe
     win 
     end
     def draw?
-      !(self.won) && self.full?
+      !(self.won?) && self.full?
     end
     
     def over?
